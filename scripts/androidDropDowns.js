@@ -1,10 +1,10 @@
-$(document).ready(function(){
+jQuery(document).ready(function(){
     if(Modernizr.touch){
-        $('#menu-mainmenu').on('click', '> li', function(e){
-            if(!$(this).data('open')){
+        jQuery('#menu-mainmenu').on('click', '> li', function(e){
+            if(!jQuery(this).data('open')){
                 e.preventDefault();
             }
-            $(this).data('open', true);
+            jQuery(this).data('open', true);
         });
     }
 });
