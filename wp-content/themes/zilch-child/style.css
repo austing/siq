@@ -35,6 +35,8 @@ body {
     font-family: "Neuton", "Average", "serif";
     line-height: 1em;
     margin-bottom: 0.1em;
+    font-weight: bold;
+    color: black;
 }
 /*13*/
 input[type="text"], input[type="password"], input[type="email"], textarea, select {
@@ -169,7 +171,7 @@ f
 }
 /*213*/
 #topnav ul.sub-menu ul li, #topnav ul.sub-menu ul li a {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.70);
 }
 /*214*/
 #topnav ul.sub-menu ul li:hover, #topnav ul.sub-menu ul li a:hover {
@@ -183,12 +185,11 @@ f
 }
 /*217*/
 #topnav ul li {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.70);
 }
 /*229*/
 #topnav ul ul.sub-menu li, #topnav ul ul.children li {
-    border: 1px solid #fff;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.70);
     color: #000;
 }
 /*230*/
