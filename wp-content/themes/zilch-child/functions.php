@@ -13,7 +13,7 @@ if ( !function_exists( 'chld_thm_cfg_parent_css' ) ):
 endif;
 
 function android_menu_script() {
-    wp_enqueue_script( 'android_menu_script', '/scripts/androidDropDowns.js', array( 'jquery', 'modernizr' ) ); 
+    wp_enqueue_script( 'android_menu_script', '/scripts/androidDropDowns.js', array( 'jquery' ) ); 
 }
 
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css' );

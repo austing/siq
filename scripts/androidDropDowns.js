@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-//    if(Modernizr.touch){
+    if(Modernizr.touch){
         jQuery('#topnav li.menu-item > a').dblclick(function(e){
             jQuery(this).data('open', true);
             jQuery(this).click();
@@ -12,5 +12,5 @@ jQuery(document).ready(function(){
                 }
             }
         });
-//    }
+    }
 });
