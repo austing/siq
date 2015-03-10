@@ -138,6 +138,7 @@ dl.gallery-item img {
 }
 /*147*/
 f
+
 .entry-meta a:hover, .entry-meta a:focus {
     color: #e40101;
 }
@@ -168,7 +169,7 @@ f
 }
 /*213*/
 #topnav ul.sub-menu ul li, #topnav ul.sub-menu ul li a {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
 }
 /*214*/
 #topnav ul.sub-menu ul li:hover, #topnav ul.sub-menu ul li a:hover {
@@ -182,12 +183,12 @@ f
 }
 /*217*/
 #topnav ul li {
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
 }
 /*229*/
 #topnav ul ul.sub-menu li, #topnav ul ul.children li {
     border: 1px solid #fff;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
     color: #000;
 }
 /*230*/
@@ -252,6 +253,7 @@ h2 span {
 .footnote_plugin_text {
     font-size: 0.85em;
     color: #707070
+
     text-align: left;
     vertical-align: top;
     width: 99%;
