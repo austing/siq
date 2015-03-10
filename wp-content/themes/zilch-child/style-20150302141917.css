@@ -1,0 +1,190 @@
+/*
+Theme Name: Zilch Child
+Template: zilch
+Author: Child Theme Configurator
+Version: 1.0.1425305629
+Updated: 2015-03-02 14:13:49
+*/
+
+@charset "UTF-8";
+
+
+/*1*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-family: "Neuton", "Average", "serif";
+}
+/*3*/
+body {
+    line-height: 1.5em;
+    font-family: "Neuton", "Average", "serif";
+    font-size: 1.2em;
+}
+/*9*/
+#menu {
+    font family: "Neuton", "Average", "serif";
+}
+/*10*/
+#headimg #logo-text .site-name {
+    font-family: "Neuton", "Average", "serif";
+    font-size: 100px;
+    line-height: 100px;
+    color: #000;
+}
+/*11*/
+#headimg #logo-text .site-description {
+    font-family: "Neuton", "Average", "serif";
+}
+/*header fonts*/
+h1, h3, h4, h5, h6 {
+    font-family: "Neuton", "Average", "serif";
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 32px/45px Neuton, Average, Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+/*13*/
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    border: 1px #000 #fff;
+}
+/*14*/
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+    background-color: #000;
+    border: 0;
+}
+/*29*/
+h1 {
+    font-family: "Neuton", "Average", "serif";
+}
+/*38*/
+pre {
+    background-color: #020202;
+}
+/*51*/
+a:hover, a:focus {
+    color: #000;
+    background-color: #c00000;
+}
+/*73*/
+td, th {
+    border: #000;
+}
+/*81*/
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
+    background-color: #ad0000;
+    border: 000;
+}
+/*82*/
+.searchform {
+    border: #000  #000;
+}
+/*102*/
+dl.gallery-item img {
+    border: 1px  #000;
+}
+/*128*/
+#sidebar a:hover, #sidebar a:focus {
+    color: #000;
+    background-color: #c00000;
+}
+/*129*/
+.widget {
+    font-family: Neuton;
+}
+/*140*/
+.entry-title {
+    font-size: 24px;
+    font-family: "Neuton", "Average", "serif";
+    line-height: 24px;
+    border-bottom: 2px solid #e5e5e5;
+}
+/*146*/
+f
+.entry-meta a:hover, .entry-meta a:focus {
+    color: #e40101;
+}
+/*149*/
+.entry-meta-featured {
+    color: #e40101;
+}
+/*150*/
+.cat-links a, .cat-links a:visited, .tag-links a, .tag-links a:visited {
+    color: #000;
+}
+/*180*/
+.commentlist li.comment, .commentlist li.pingback {
+    border: 1px  #000;
+}
+/*207*/
+#topnav {
+    font-family: "Neuton", "Average", "serif";
+}
+/*208*/
+#topnav ul, #topnav ul * {
+    font-family: "Neuton", "Average", "serif";
+}
+/*211*/
+#topnav ul.sub-menu ul {
+    font-family: "Neuton", "Average", "serif";
+}
+/*212*/
+#topnav ul.sub-menu ul li, #topnav ul.sub-menu ul li a {
+    background-color: #fff;
+}
+/*213*/
+#topnav ul.sub-menu ul li:hover, #topnav ul.sub-menu ul li a:hover {
+    background-color: #c00000;
+    color: #000;
+}
+/*215*/
+#topnav ul li:hover {
+    background-color: #c00000;
+    color: #000;
+}
+/*216*/
+#topnav ul li {
+    background-color: #fff;
+}
+/*228*/
+#topnav ul ul.sub-menu li, #topnav ul ul.children li {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+}
+/*229*/
+#topnav ul a, #topnav ul a:visited {
+    font-family: "Neuton", "Average", "serif";
+    color: #000;
+}
+/*230*/
+#topnav ul ul.sub-menu a, #topnav ul ul.sub-menu a:visited, #topnav ul ul.children a, #topnav ul ul.children a:visited {
+    font-size: 14px;
+    color: #000;
+}
+/*231*/
+#topnav ul a:focus, #topnav ul a:hover, #topnav ul a:active {
+    color: #000;
+}
+/*234*/
+#topnav ul ul.sub-menu li:hover, #topnav ul ul.sub-menu li.sfHover, #topnav ul ul.children li:hover, #topnav ul ul.children li.sfHover {
+    background-color: #e5e5e5;
+    color: #000;
+}

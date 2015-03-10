@@ -1,0 +1,29 @@
+/* Color scheme Orange
+----------------------------------------------- */
+body a,
+body .post-entry .post-entry-headline a:hover,
+body .sidebar-widget a,
+body #footer a,
+body .footer-signature .footer-signature-content a,
+#wrapper #container .menu-box .current-menu-item > a,
+#wrapper #container .menu-box .current-menu-ancestor > a,
+#wrapper #container .menu-box .current_page_item > a,
+#wrapper #container .menu-box .current-page-ancestor > a {
+  color: #ffcc5b;       
+}
+body .site-title a {
+  color: #543a00;                   
+}
+body input[type="submit"],
+body input[type="reset"],
+body #searchform .searchform-wrapper .send {
+  background-color: #f6ba35;       
+}
+body input[type="submit"]:hover,
+body input[type="reset"]:hover,
+body #searchform .send:hover {
+  background-color: #ab7602;               
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body #container .navigation .section-heading {
+  color: #ffde96;                                                                                                                                      
+}

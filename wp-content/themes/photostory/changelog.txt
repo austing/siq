@@ -1,0 +1,125 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(21/01/2015) - Update - Version 1.1.6
+
+[+] Added unminified version of the Placeholders.js script.
+[*] Updated Placeholders.js script to the version 3.0.2.
+[*] Updated paginate_links() arguments (added "add_args").
+
+----
+
+(15/12/2014) - Update - Version 1.1.5
+
+[*] Updated the "viewport" meta tag.
+[*] Enqueue the "HTML5 Shiv" through the function photostory_scripts_styles().
+[*] Updated German translation.
+
+----
+
+(24/11/2014) - Update - Version 1.1.4
+
+[+] Added Polish translation.
+[+] Mentioned the Text Domain in style.css.
+[*] Set the priority of excerpt_length filter from 999 to 20.
+
+----
+
+(04/11/2014) - Update - Version 1.1.3
+
+[+] Added new color scheme (Tan).
+[*] Updated displaying of the featured images.
+
+----
+
+(17/10/2014) - Update - Version 1.1.2
+
+[+] Added Danish translation.
+[x] Removed unnecessary code from headerdata.php (the main stylesheet is already added in functions.php).
+
+----
+
+(01/10/2014) - Update - Version 1.1.1
+
+[+] Added Dutch translation.
+[x] Removed deprecated function "screen_icon()" from class-tgm-plugin-activation.php.
+
+----
+
+(17/09/2014) - Update - Version 1.1.0
+
+[*] Updated displaying of widgets in the Right Sidebar.
+[*] Updated displaying of sticky posts (uppercase titles).
+
+----
+
+(04/09/2014) - Update - Version 1.0.9
+
+[*] Updated displaying of the footer widget areas.
+[*] Updated editor-style.css.
+
+----
+
+(26/08/2014) - Update - Version 1.0.8
+
+[+] Added Italian translation.
+
+----
+
+(16/08/2014) - Update - Version 1.0.7
+
+[+] Added new color scheme (Orange).
+
+----
+
+(07/08/2014) - Update - Version 1.0.6
+
+[+] Added "id" and "class" substitutions for the sidebar and footer widgets inside the register_sidebar function.
+[+] Added transition hover effect for the Post Thumbnails.
+
+----
+
+(26/07/2014) - Update - Version 1.0.5
+
+[*] Changed function for displaying featured images on archive pages.
+
+----
+
+(16/07/2014) - Update - Version 1.0.4
+
+[*] Changed function for dispalying the breadcrumb navigation (hide it on a static front page).
+
+----
+
+(04/07/2014) - Update - Version 1.0.3
+
+[+] Added custom Page Template for displaying Full-width pages without Title.
+[+] Added custom Page Template for displaying the page content only for logged in users.
+[*] Updated language localizations.
+
+----
+
+(23/06/2014) - Update - Version 1.0.2
+
+[+] Added Greek translation.
+[*] Improved displaying of the Fixed Menu on mobile devices when the Admin Bar is used.
+
+----
+
+(30/05/2014) - The initial public release - Version 1.0.1
+
+[*] Moved $content_width definition inside the Theme setup function.
+[*] Edited URL address for the Google fonts call (removed http to avoid errors when https is used).
+[x] Removed definition of unused checkboxes in fw-options.php.
+
+----
+
+(22/05/2014) - The initial testing release - Version 1.0.0
