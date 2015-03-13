@@ -29,6 +29,8 @@ body {
     font-size: 5.5em;
     line-height: 1em;
     color: #000;
+    text-align: center;
+    margin: 0px;
 }
 /*11*/
 #headimg #logo-text .site-description {
@@ -61,6 +63,8 @@ button, input[type="submit"], input[type="reset"], input[type="button"] {
 /*15*/
 .container_header_top {
     padding-bottom: 0.4em;
+    padding: 0px;
+    margin-top: 20px;
 }
 /*25*/
 p {
