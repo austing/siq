@@ -11,19 +11,20 @@ Updated: 2015-03-06 16:24:05
 
 /*1*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    font-family: "Neuton", "Average", "serif";
 }
 /*3*/
 body {
     line-height: 1.5em;
-    font-family: "Neuton", "Average", "serif";
     font-size: 1.2em;
 }
 /*9*/
 #menu {
-    font family: "Neuton", "Average", "serif";
 }
 /*10*/
+#headimg #logo-text {
+    text-align: center;
+}
+
 #headimg #logo-text .site-name {
     font-family: "Neuton", "Average", "serif";
     font-size: 5.5em;
@@ -34,11 +35,13 @@ body {
 }
 /*11*/
 #headimg #logo-text .site-description {
-    font-family: "Neuton", "Average", "serif";
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 1em;
     margin-bottom: 0.1em;
     font-weight: bold;
     color: black;
+    margin: 0px;
+    display: none;
 }
 /*13*/
 input[type="text"], input[type="password"], input[type="email"], textarea, select {
@@ -115,7 +118,6 @@ td, th {
 /*82*/
 button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
     background-color: #ad0000;
-    border: 000;
 }
 /*83*/
 .searchform {
@@ -165,41 +167,60 @@ f
     font-family: "Neuton", "Average", "serif";
 }
 /*209*/
-#topnav ul, #topnav ul * {
-    font-family: "Neuton", "Average", "serif";
+#topnav ul {
+text-align: center;
+width: 940px;
+border-bottom: 2px #2f2f2f solid;
+}
+#topnav ul li {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    border: none;
+    background-color: transparent !important;
 }
 /*212*/
 #topnav ul.sub-menu ul {
     width: auto;
-    font-family: "Neuton", "Average", "serif";
+
 }
 /*213*/
-#topnav ul.sub-menu ul li, #topnav ul.sub-menu ul li a {
-    background-color: rgba(255,255,255,0.70);
-}
 /*214*/
+#topnav ul.sub-menu li:last-child {
+border-bottom: none;
+}
+
 #topnav ul.sub-menu ul li:hover, #topnav ul.sub-menu ul li a:hover {
     background-color: #ad0000;
     color: #000;
+}
+
+#topnav ul.sub-menu ul li:hover ul, #topnav ul.sub-menu ul li:hover ul {
+display: block;
+top: auto;
 }
 /*216*/
 #topnav ul li:hover {
     background-color: #ad0000;
     color: #000;
 }
+
+#topnav ul li a:hover {
+    text-decoration: none;
+    border: none;
+}
 /*217*/
-#topnav ul li {
-    background-color: rgba(255,255,255,0.70);
+#topnav ul li ul.sub-menu li {
+    background-color: rgba(255,255,255,0.90) !important;
 }
 /*229*/
-#topnav ul ul.sub-menu li, #topnav ul ul.children li {
-    background-color: rgba(255,255,255,0.70);
-    color: #000;
-}
+
 /*230*/
 #topnav ul a, #topnav ul a:visited {
-    font-family: "Neuton", "Average", "serif";
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #000;
+    text-transform: lowercase;
+    padding: 17px;
 }
 /*231*/
 #topnav ul ul.sub-menu a, #topnav ul ul.sub-menu a:visited, #topnav ul ul.children a, #topnav ul ul.children a:visited {
@@ -221,8 +242,49 @@ a:hover, a:active, a:focus {
     background-color: #ad0000;
 }
 /*240*/
+#topnav ul#menu-menu > li > ul.sub-menu {
+    border-top: 2px black solid;
+}
+#topnav ul#menu-menu > li > ul.sub-menu ul > li:first-child {
+border-top: 1px black solid;
+}
+
+#topnav ul#menu-menu > li > ul.sub-menu ul > li {
+ background-color: transparent;
+}
+
+#topnav ul#menu-menu > li > ul.sub-menu ul > li a {
+ background-color: rgba(255,255,255,0.9);
+}
+
+#topnav ul#menu-menu > li > ul.sub-menu ul > li a:hover {
+    background-color: #ad0000;
+
+}
+
+#topnav ul ul.sub-menu {
+    width: 190px
+}
+#topnav ul ul.sub-menu li {
+    border-top: none;
+    border-bottom 1px solid #555;
+    width: 190px
+}
+#topnav ul ul.sub-menu li ul.sub-menu {
+    margin-left: 189px;
+}
+#topnav ul#menu-menu > li:hover > ul.sub-menu {
+top: auto;
+}
+#topnav ul li:hover ul.sub-menu ul {
+display: none;
+}
+#topnav ul.sub-menu li:hover ul.sub-menu {
+display: inherit !important;
+
+}
+
 #topnav ul li li:hover li ul, #topnav ul li li:active li ul, #topnav ul li li:focus li ul, #topnav ul li li.sfHover li ul,  {
-    top: auto;
     display: none;
 }
 /*241*/
