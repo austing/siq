@@ -31,7 +31,7 @@ body {
 }
 
 #headimg #logo-text .site-name {
-    font-family: "Neuton", "Average", "serif";
+    font-family: Baskerville, Didot, Garamond, Serif;
     font-size: 5.5em;
     line-height: 1em;
     color: #000;
@@ -225,9 +225,10 @@ top: auto;
 
 /*230*/
 #topnav ul a, #topnav ul a:visited {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Baskerville, Didot, Garamond, Serif;
     color: #000;
-    text-transform: lowercase;
+    font-weight: normal;
+    text-transform: none;
     padding: 17px;
 }
 /*231*/
@@ -282,7 +283,7 @@ border-top: 1px black solid;
 border-top: none;
 }
 #topnav ul ul.sub-menu li ul.sub-menu {
-    margin-left: 189px;
+    margin-left: 185px;
 }
 #topnav ul#menu-menu > li:hover > ul.sub-menu {
 top: auto;
