@@ -27,27 +27,42 @@ body {
 }
 /*10*/
 #headimg #logo-text {
-    text-align: center;
+    text-align: left;
+    margin: 0px;
 }
 
 #headimg #logo-text .site-name {
     font-family: Baskerville, Didot, Garamond, Serif;
     font-size: 5.5em;
-    line-height: 1em;
+    line-height: 0.8em;
     color: #000;
-    text-align: center;
+    text-align: left;
     margin: 0px;
+    padding-left: 2px;
+    margin-top: 35px;
 }
 /*11*/
 #headimg #logo-text .site-description {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Baskerville, Didot, Garamond, Serif;
     line-height: 1em;
     margin-bottom: 0.1em;
+    font-size: 17px;
     font-weight: bold;
     color: black;
     margin: 0px;
+    padding-left: 8px;
     display: none;
 }
+
+div#content {
+padding-left: 10px !important;
+padding-top: 30px;
+}
+
+#footer {
+display: none;
+}
+
 /*13*/
 input[type="text"], input[type="password"], input[type="email"], textarea, select {
     border: 1px #000 #fff;
@@ -173,7 +188,7 @@ f
 }
 /*209*/
 #topnav ul {
-text-align: center;
+text-align: left;
 width: 940px;
 border-bottom: 2px #2f2f2f solid;
 }
@@ -183,6 +198,9 @@ border-bottom: 2px #2f2f2f solid;
     float: none;
     border: none;
     background-color: transparent !important;
+}
+#topnav ul#menu-menu > li:first-child > a {
+padding-left: 8px !important;
 }
 /*212*/
 #topnav ul.sub-menu ul {
@@ -227,9 +245,15 @@ top: auto;
 #topnav ul a, #topnav ul a:visited {
     font-family: Baskerville, Didot, Garamond, Serif;
     color: #000;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 18px;
     text-transform: none;
     padding: 17px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#topnav ul.sub-menu a {
+font-weight: normal;
 }
 /*231*/
 #topnav ul ul.sub-menu a, #topnav ul ul.sub-menu a:visited, #topnav ul ul.children a, #topnav ul ul.children a:visited {
